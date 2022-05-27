@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XWRecordRTC_Example' do
+  pod 'XWRecordRTC', :path => '../'
+
+  target 'XWRecordRTC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
