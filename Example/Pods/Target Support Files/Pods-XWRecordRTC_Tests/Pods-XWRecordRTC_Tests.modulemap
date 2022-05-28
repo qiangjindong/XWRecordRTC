@@ -1,0 +1,6 @@
+framework module Pods_XWRecordRTC_Tests {
+  umbrella header "Pods-XWRecordRTC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

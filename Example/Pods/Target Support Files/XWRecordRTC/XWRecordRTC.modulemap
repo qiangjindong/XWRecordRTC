@@ -1,0 +1,6 @@
+framework module XWRecordRTC {
+  umbrella header "XWRecordRTC-umbrella.h"
+
+  export *
+  module * { export * }
+}

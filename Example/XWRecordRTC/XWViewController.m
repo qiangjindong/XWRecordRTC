@@ -7,6 +7,8 @@
 //
 
 #import "XWViewController.h"
+#import "XWServerSocket.h"
+#import "XWYUVConverter.h"
 
 @interface XWViewController ()
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+  
+  [[XWServerSocket sharedManager] setupSocket];
 }
 
 - (void)didReceiveMemoryWarning

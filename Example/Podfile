@@ -3,6 +3,8 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'XWRecordRTC_Example' do
+  
+  use_modular_headers!
   pod 'XWRecordRTC', :path => '../'
 
   target 'XWRecordRTC_Tests' do

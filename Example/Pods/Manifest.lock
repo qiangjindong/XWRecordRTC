@@ -1,0 +1,23 @@
+PODS:
+  - Libyuv (1703)
+  - XWRecordRTC (0.1.0):
+    - Libyuv (= 1703)
+
+DEPENDENCIES:
+  - XWRecordRTC (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Libyuv
+
+EXTERNAL SOURCES:
+  XWRecordRTC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Libyuv: 5f79ced0ee66e60a612ca97de1e6ccacd187a437
+  XWRecordRTC: d04569a73f9c44b3195d44618a929d6643fa0533
+
+PODFILE CHECKSUM: 40bc67d024db0cd5c2d210c6c4d35c25963b8a06
+
+COCOAPODS: 1.11.2
